@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.part1 {
+  background-image: url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+  background-size: COVER;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.895);
+  height: 825px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #efe7dd;
+  font-family: sorts-mill-goudy-regular;
+  font-size: 20px;
+  height: 2px;
+  
+   
+   
+   
+
+   
+
+}
+nav ul li a:hover{
+   text-decoration: underline;
+     
+       
+    
+}
+
+.hero {
+  padding: 150px 0;
+}
+
+.hero-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #efe7dd;
+}
+
+ 
+ 
+ 
+ 
+.hero-text h1 {
+  color: #efe7dd;
+  width: 60%;
+  font-size: 60px;
+  text-align: center;
+  font-family: Roxborough cf regular;
+  font-weight: 500;
+  margin-bottom: -2px;
+     
+   
+}
+
+.hero-text p {
+  font-family: sorts-mill-goudy-regular;
+  width: 38%;
+  color: #efe7dd;
+  text-align: left;
+  margin-left: 100px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+
+}
+
+.button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  text-align: center;
+  display: inline-block;
+  font-weight: lighter;
+  margin-left: 19%;
+}
+
+.button:hover {
+  background-color: #e65c00;
+   
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
