@@ -6,12 +6,11 @@ body {
   padding: 0;
 }
 .part1 {
-  background-image: url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+  background-image: linear-gradient(rgba(210, 148, 104, 0.3), rgba(179, 119, 77, 0.3)), url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
   background-size: COVER;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.895);
   height: 825px;
 }
 
