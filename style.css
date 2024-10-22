@@ -6,12 +6,13 @@ body {
   padding: 0;
 }
 .part1 {
-  background-image: linear-gradient(rgba(210, 148, 104, 0.3), rgba(179, 119, 77, 0.3)), url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+  background-image: url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
   background-size: COVER;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 825px;
+  
+  background-color: rgba(0, 0, 0, 0.895);
+   
 }
 
 nav ul {
@@ -24,6 +25,7 @@ nav ul {
 
 nav ul li {
   margin-right: 40px;
+  margin-top: -20px;
 }
 
 nav ul li a {
@@ -48,7 +50,7 @@ nav ul li a:hover{
 }
 
 .hero {
-  padding: 150px 0;
+  padding: 90px 0;
 }
 
 .hero-content {
@@ -78,7 +80,7 @@ nav ul li a:hover{
   width: 38%;
   color: #efe7dd;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 72px;
   font-weight: 500;
   line-height: 25px;
   margin-bottom: 30px;
@@ -105,18 +107,79 @@ nav ul li a:hover{
 }
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ .part1,
+.part2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.part1 {
+  background-image: linear-gradient(
+      rgba(210, 148, 104, 0.3),
+      rgba(179, 119, 77, 0.3)
+    ),
+    url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+  height: 825px;
+}
+.part2 {
+  background-image: url("page-2-bgimage.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  font-family: sorts-mill-goudy-regular;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-size: 60px;
+  color: #e0c7a5;
+  font-weight: 500;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image-box {
+  width: 40%;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.caption {
+  bottom: 0;
+
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  color: #e0c7a5;
+}
+
+.caption h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.caption p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
