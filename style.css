@@ -6,15 +6,11 @@ body {
   padding: 0;
 }
 .part1 {
-  background-image: url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
   background-size: COVER;
   background-position: center;
   background-repeat: no-repeat;
-  
   background-color: rgba(0, 0, 0, 0.895);
-   
 }
-
 nav ul {
   list-style: none;
   margin: 0;
@@ -22,47 +18,29 @@ nav ul {
   display: flex;
   float: right;
 }
-
 nav ul li {
   margin-right: 40px;
   margin-top: -20px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: #efe7dd;
   font-family: sorts-mill-goudy-regular;
   font-size: 20px;
   height: 2px;
-  
-   
-   
-   
-
-   
-
 }
-nav ul li a:hover{
-   text-decoration: underline;
-     
-       
-    
+nav ul li a:hover {
+  text-decoration: underline;
 }
-
 .hero {
   padding: 90px 0;
 }
-
 .hero-content {
   position: absolute;
   transform: translate(-50%, -50%);
   color: #efe7dd;
 }
 
- 
- 
- 
- 
 .hero-text h1 {
   color: #efe7dd;
   width: 60%;
@@ -71,10 +49,7 @@ nav ul li a:hover{
   font-family: Roxborough cf regular;
   font-weight: 500;
   margin-bottom: -2px;
-     
-   
 }
-
 .hero-text p {
   font-family: sorts-mill-goudy-regular;
   width: 38%;
@@ -85,9 +60,7 @@ nav ul li a:hover{
   line-height: 25px;
   margin-bottom: 30px;
   letter-spacing: 1px;
-
 }
-
 .button {
   background-color: #ff6600;
   color: #fff;
@@ -100,20 +73,15 @@ nav ul li a:hover{
   font-weight: lighter;
   margin-left: 19%;
 }
-
 .button:hover {
   background-color: #e65c00;
-   
 }
- 
- 
- .part1,
+.part1,
 .part2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .part1 {
   background-image: linear-gradient(
       rgba(210, 148, 104, 0.3),
@@ -127,59 +95,114 @@ nav ul li a:hover{
   height: 100vh;
   display: flex;
   justify-content: center;
-
   font-family: sorts-mill-goudy-regular;
 }
-
-
 .container {
   margin: 0 auto;
   padding: 20px;
 }
-
 .header {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .header h1 {
   font-size: 60px;
   color: #e0c7a5;
   font-weight: 500;
 }
-
 .content {
   display: flex;
   justify-content: space-evenly;
 }
-
 .image-box {
   width: 40%;
 }
-
 .image-box img {
   width: 100%;
   border-radius: 20px;
 }
-
 .caption {
   bottom: 0;
-
   padding: 20px;
   border-radius: 0 0 20px 20px;
   color: #e0c7a5;
 }
-
 .caption h2 {
   font-size: 24px;
   margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
 }
-
 .caption p {
   font-size: 16px;
   text-align: center;
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+
+.background-container {
+  background-image: url(Page-3-bgimg.jpg);  
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   
+  font-family: sorts-mill-goudy-regular;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+    
+  padding: 80px;
+}
+
+.title {
+  color: #e0c7a5;
+  font-size:  70px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  margin-top: -30px;
+  
+ 
+}
+
+.steps-container {
+  display: flex;
+   
+  width: 100%;
+  
+  margin-top: 20px;
+}
+
+.step {
+  background-color: #ecc799;  
+  padding: 20px;
+  border-radius: 90px;
+  width: 70%;
+  margin: 40px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.step p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
