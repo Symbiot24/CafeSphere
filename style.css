@@ -206,3 +206,61 @@ nav ul li a:hover {
   line-height: 1.5;
 }
 
+
+.about-container {
+  background-position: center;
+  height: 100vh;
+   
+  font-family: sorts-mill-goudy-regular;
+  color: #F5EDEB;
+  background-color:   #764B36
+  ;
+  display: flex;
+  justify-content: space-between;
+   
+  align-items: center;
+   
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.about-text {
+   
+  font-size: 18px;
+  margin-left: 5%;
+  line-height: 1.6;
+  width: 35%;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.about-text h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.about-text p, .about-text ul {
+  margin-bottom: 20px;
+}
+
+.about-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-image {
+  width: 60%;
+  text-align: center;
+   
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+   
+}
+
+
