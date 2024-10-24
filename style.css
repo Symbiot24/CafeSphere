@@ -139,3 +139,70 @@ nav ul li a:hover {
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+
+.background-container {
+  background-image: url(Page-3-bgimg.jpg);  
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   
+  font-family: sorts-mill-goudy-regular;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+    
+  padding: 80px;
+}
+
+.title {
+  color: #e0c7a5;
+  font-size:  70px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  margin-top: -30px;
+  
+ 
+}
+
+.steps-container {
+  display: flex;
+   
+  width: 100%;
+  
+  margin-top: 20px;
+}
+
+.step {
+  background-color: #ecc799;  
+  padding: 20px;
+  border-radius: 90px;
+  width: 70%;
+  margin: 40px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.step p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
