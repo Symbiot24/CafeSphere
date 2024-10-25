@@ -64,8 +64,9 @@ html, body{
     height: 550px;
     width: 540px;
     position: absolute;
+    align-items: center;
     top: 100px;
-    left: 440px;
+    left: 500px;
     display: flex;
     flex-direction: column;
     box-shadow: 20px 20px 15px rgba(118, 75, 54, 0.4);
