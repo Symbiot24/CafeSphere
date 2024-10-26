@@ -55,7 +55,7 @@ nav ul li a:hover {
   width: 38%;
   color: #efe7dd;
   text-align: left;
-  margin-left: 185px;
+  margin-left: 72px;
   font-weight: 500;
   line-height: 25px;
   margin-bottom: 30px;
@@ -71,7 +71,7 @@ nav ul li a:hover {
   text-align: center;
   display: inline-block;
   font-weight: lighter;
-  margin-left: 25%;
+  margin-left: 19%;
 }
 .button:hover {
   background-color: #e65c00;
@@ -83,10 +83,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
 }
 .part1 {
-  background-image: linear-gradient(
-      rgba(210, 148, 104, 0.3),
-      rgba(179, 119, 77, 0.3)
-    ),
+  background-image: linear-gradient( to right ,rgba(71, 68, 66, 0.3),rgba(237, 109, 17, 0.384)),
     url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
   height: 825px;
 }
@@ -205,7 +202,7 @@ nav ul li a:hover {
 
 .about-container {
   background-position: center;
-  height: 88vh;
+  height: 100vh;
 
   font-family: sorts-mill-goudy-regular;
   color: #f5edeb;
