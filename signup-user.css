@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #E3CAAB;
+    display: flex;
+}
+.img-1, .img-4{
+    height: 210px;
+    width: 200px;
+    background-color: red;
+}
+.img-2, .img-3{
+    height: 260px;
+    width: 220px;
+    background-color: pink;
+}
+
+.img-1{
+    background: url(Signup-page-img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    top: 140px;
+}
+.img-2{
+    background: url(Signup-page-img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+.img-3{
+    background: url(Signup-page-img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+.img-4{
+    background: url(Signup-page-img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 140px;
+}
+
+.box{
+    height: 550px;
+    width: 540px;
+    position: absolute;
+    align-items: center;
+    top: 100px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20px 15px rgba(118, 75, 54, 0.4);
+}
+
+.box h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0 100px;
+    color: rgb(2, 51, 2);
+}
+
+.box input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    margin: 0 20px;
+    margin-top:15px;
+    background-color: transparent;
+    border: 2px solid #764B36;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.box button {
+    height: 30px;
+    width: 70%;
+    background-color: #764B36;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 30px 80px;
+    margin-bottom: 0;
+}
+
+.box a{
+    text-decoration: none;
+    color: #764B36;
+    font-weight: 550;
+    font-size: 15px;
+    margin: 0 180px;
+}
