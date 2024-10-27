@@ -90,10 +90,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
 }
 .part1 {
-  background-image: linear-gradient(
-      rgba(210, 148, 104, 0.3),
-      rgba(179, 119, 77, 0.3)
-    ),
+  background-image: linear-gradient( to right ,rgba(71, 68, 66, 0.3),rgba(237, 109, 17, 0.384)),
     url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
   height: 825px;
 }
