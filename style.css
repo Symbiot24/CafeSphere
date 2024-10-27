@@ -33,6 +33,13 @@ nav ul li a {
   font-size: 20px;
 }
 
+
+@media(min-width: 1200px){
+  nav ul li a{
+    max-width: 1920px;
+    font-size: 18px;
+  }
+}
 nav ul li a:hover {
   text-decoration: underline;
 }
@@ -57,6 +64,14 @@ nav ul li a:hover {
   margin-bottom: -2px;
 }
 
+@media (min-width: 1200px){
+
+  .hero-text h1{
+    max-width: 1920px;
+    font-size: 55px;
+    margin-left: 35px;
+  }
+}
 .hero-text p {
   font-family: sorts-mill-goudy-regular;
   width: 38%;
@@ -69,6 +84,13 @@ nav ul li a:hover {
   letter-spacing: 1px;
 }
 
+@media(min-width: 1200px){
+
+  .hero-text p{
+    max-width: 1920px;
+    margin-left: 160px;
+  }
+}
 .button {
   background-color: #ff6600;
   color: #fff;
@@ -82,6 +104,12 @@ nav ul li a:hover {
   margin-left: 25%;
 }
 
+@media(min-width: 1200px){
+  .button{
+    max-width: 1920px;
+    padding: 12px 25px;
+  }
+}
 .button:hover {
   background-color: #e65c00;
 }
@@ -101,6 +129,13 @@ nav ul li a:hover {
   height: 825px;
 }
 
+@media(min-width: 1200px){
+
+  .part1{
+    max-width: 1920px;
+    height: 674px;
+  }
+}
 .part2 {
   background-image: url(" https://img.freepik.com/free-photo/cafe-bar-hotel-loft-style_1150-10724.jpg?t=st=1730046094~exp=1730049694~hmac=6eef7fe02338e56c1875e399f7253ac730f96ac9c968281a04ebf18901697bd3&w=1060");
   height: 100vh;
@@ -109,6 +144,12 @@ nav ul li a:hover {
   font-family: sorts-mill-goudy-regular;
 }
 
+@media(min-width:1200px){
+  .part2{
+    max-width: 1920px;
+    height: 675px;
+  }
+}
 .container {
   margin: 0 auto;
   padding: 20px;
@@ -125,6 +166,13 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
+@media(min-width:1200px){
+  .header h1{
+    max-width: 1920px;
+    font-size: 50px;
+    margin-right: 50px;
+  }
+}
 .content {
   display: flex;
   justify-content: space-evenly;
@@ -139,6 +187,12 @@ nav ul li a:hover {
   border-radius: 20px;
 }
 
+@media(min-width:1200px){
+  .image-box{
+    max-width: 1920px;
+    width:38%;
+  }
+}
 .caption {
   bottom: 0;
   padding: 20px;
@@ -153,6 +207,13 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
+@media(min-width:1200px){
+  .caption h2{
+    max-width: 1920px;
+    font-size: 21px;
+    font-weight: 520;
+  }
+}
 .caption p {
   font-size: 16px;
   text-align: center;
@@ -160,6 +221,12 @@ nav ul li a:hover {
   letter-spacing: 1px;
 }
 
+@media(min-width:1200px){
+  .caption p{
+    max-width: 1920px;
+    font-size: 14px;
+  }
+}
 .background-container {
   background-image: url(images/Page-3-bg-img.jpg);
   background-size: cover;
@@ -169,6 +236,12 @@ nav ul li a:hover {
   font-family: "Arial", sans-serif;
 }
 
+@media(min-width:1200px){
+  .background-container{
+    max-width: 1920px;
+    height: 675px;
+  }
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -192,6 +265,12 @@ nav ul li a:hover {
   margin-top: -30px;
 }
 
+@media(min-width:1200px){
+  .title{
+    max-width: 1920px;
+    font-size: 60px;
+  }
+}
 .steps-container {
   display: flex;
   width: 100%;
@@ -208,15 +287,38 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.step h2 {
+@media(min-width: 1200px){
+  .step{
+    max-width: 1920px;
+    border-radius: 80px;
+    width: 300px;
+    height: 63%;
+    padding-top: 10px;
+    margin: 25px;
+  }
+}
+.step h4 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 50;
   margin-bottom: 15px;
 }
 
+@media(min-width: 1200px){
+  .step h4{
+    max-width: 1920px;
+    font-size: 1.2rem;
+  }
+}
 .step p {
   font-size: 1rem;
   line-height: 1.5;
+}
+@media(min-width:1200px){
+  .step p{
+    max-width: 1920px;
+    font-size: 0.9rem;
+    font-weight: 50;
+  }
 }
 
 .about-container {
@@ -232,6 +334,12 @@ nav ul li a:hover {
   padding: 50px 20px;
 }
 
+@media(min-width:1200px){
+  .about-container{
+    max-width: 1920px;
+    height:580px;
+  }
+}
 .about-text {
   font-size: 18px;
   margin-left: 5%;
@@ -241,6 +349,12 @@ nav ul li a:hover {
   letter-spacing: 1px;
 }
 
+@media(min-width:1200px){
+  .about-text{
+    max-width: 1920px;
+    font-size: 16px;
+  }
+}
 .about-text h1 {
   text-align: center;
   font-size: 3em;
@@ -278,6 +392,12 @@ header {
   width: 100%;
 }
 
+@media(min-width:1200px){
+  .cafe img{
+    max-width: 1920px;
+    height:230px;
+  }
+}
 .image-section {
   display: flex;
 }
