@@ -21,7 +21,7 @@ html, body{
 }
 
 .img-1{
-    background: url(Signup-page-img1.jpg);
+    background: url( https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?t=st=1730047724~exp=1730051324~hmac=25db1dd5a8d8eac47ae30483dac78e5bdb58081af9dc60d9129fd0aa5bb4caa8&w=1060);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -30,7 +30,7 @@ html, body{
     top: 140px;
 }
 .img-2{
-    background: url(Signup-page-img2.jpg);
+    background: url( https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?ga=GA1.1.1351037294.1729501139);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -40,7 +40,7 @@ html, body{
     top: 0;
 }
 .img-3{
-    background: url(Signup-page-img4.jpg);
+    background: url(https://img.freepik.com/free-photo/cup-tea-with-cookies-lemon-slices-dark_140725-44454.jpg?ga=GA1.1.1351037294.1729501139);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -50,7 +50,7 @@ html, body{
     left: 100px;
 }
 .img-4{
-    background: url(Signup-page-img3.jpg);
+    background: url(https://img.freepik.com/free-photo/side-view-thai-ice-cream-roll-whipped-cream-decorated-with-colorful-sprinkles-cardboard-bowl-black-wall_140725-12926.jpg?ga=GA1.1.1351037294.1729501139);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
