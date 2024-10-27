@@ -1,6 +1,6 @@
 var tl = gsap.timeline();
 
-gsap.from(".landing-page" , {
+tl.from(".landing-page" , {
     opacity : 0,
     duration : 1,
     delay : 0.5
