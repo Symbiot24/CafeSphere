@@ -27,14 +27,6 @@ nav ul li a {
   color: #efe7dd;
   font-family: sorts-mill-goudy-regular;
   font-size: 20px;
- 
-  
-   
-   
-   
-
-   
-
 }
 nav ul li a:hover {
   text-decoration: underline;
@@ -47,7 +39,6 @@ nav ul li a:hover {
   transform: translate(-50%, -50%);
   color: #efe7dd;
 }
-
 .hero-text h1 {
   color: #efe7dd;
   width: 60%;
@@ -90,12 +81,16 @@ nav ul li a:hover {
   background-repeat: no-repeat;
 }
 .part1 {
-  background-image: linear-gradient( to right ,rgba(71, 68, 66, 0.3),rgba(237, 109, 17, 0.384)),
-    url(roman-bozhko-OXXsAafHDeo-unsplash.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(71, 68, 66, 0.3),
+      rgba(237, 109, 17, 0.384)
+    ),
+    url(images/roman-bozhko-OXXsAafHDeo-unsplash.jpg);
   height: 825px;
 }
 .part2 {
-  background-image: url("Page-2-bgimage.jpg");
+  background-image: url("images/Page-2-bgimage.jpg");
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -143,33 +138,28 @@ nav ul li a:hover {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
 .background-container {
-  background-image: url(Page-3-bgimg.jpg);
+  background-image: url(images/Page-3-bgimg.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
   position: relative;
   font-family: "Arial", sans-serif;
 }
-
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-
   font-family: sorts-mill-goudy-regular;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: -50px;
-
   padding: 80px;
 }
-
 .title {
   color: #e0c7a5;
   font-size: 70px;
@@ -177,15 +167,11 @@ nav ul li a:hover {
   font-weight: 500;
   margin-top: -30px;
 }
-
 .steps-container {
   display: flex;
-
   width: 100%;
-
   margin-top: 20px;
 }
-
 .step {
   background-color: #ecc799;
   padding: 20px;
@@ -195,34 +181,27 @@ nav ul li a:hover {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .step h2 {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 15px;
 }
-
 .step p {
   font-size: 1rem;
   line-height: 1.5;
 }
-
 .about-container {
   background-position: center;
   height: 100vh;
-
   font-family: sorts-mill-goudy-regular;
   color: #f5edeb;
   background-color: #764b36;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
-
   margin: 0 auto;
   padding: 50px 20px;
 }
-
 .about-text {
   font-size: 18px;
   margin-left: 5%;
@@ -231,29 +210,24 @@ nav ul li a:hover {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
 .about-text h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 20px;
   font-weight: 500;
 }
-
 .about-text p,
 .about-text ul {
   margin-bottom: 20px;
 }
-
 .about-text ul {
   list-style-type: disc;
   padding-left: 20px;
 }
-
 .about-image {
   width: 60%;
   text-align: center;
 }
-
 .about-image img {
   max-width: 100%;
   height: auto;
@@ -262,31 +236,25 @@ nav ul li a:hover {
 header {
   height: 10%;
 }
-
 .cafe img {
   height: 350px;
   width: 100%;
 }
-
 .image-section {
   display: flex;
 }
-
 .image-section img {
   margin-top: -4px;
   width: 34%;
   height: 220px;
 }
-
 footer {
   background-color: #764b36;
-
   padding: 40px;
   color: #fff;
   text-align: center;
   color: #ffd5ad;
 }
-
 footer h2 {
   font-weight: 400;
   letter-spacing: 4px;
@@ -294,16 +262,13 @@ footer h2 {
   margin-bottom: 10px;
   font-family: sorts-mill-goudy-regular;
 }
-
 footer p {
   font-size: 1.2rem;
   margin: 5px 0;
 }
-
 .social-media {
   margin-top: 10px;
 }
-
 .social-media a {
   margin: 20px 20px;
   vertical-align: middle;
@@ -313,18 +278,13 @@ footer p {
 .social-media a i:hover {
   opacity: 0.5;
 }
-
 .footer-bottom {
   margin-top: 20px;
 }
-
 .footer-bottom p {
   font-size: 0.9rem;
-  
 }
-
-.footer-bottom a:hover{
-  color: #4493F8;
+.footer-bottom a:hover {
+  color: #4493f8;
   text-decoration: underline;
-   
 }
