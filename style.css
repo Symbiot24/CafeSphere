@@ -28,6 +28,13 @@ nav ul li a {
   font-family: sorts-mill-goudy-regular;
   font-size: 20px;
 }
+
+@media(min-width: 1200px){
+  nav ul li a{
+    max-width: 1920px;
+    font-size: 18px;
+  }
+}
 nav ul li a:hover {
   text-decoration: underline;
 }
@@ -48,6 +55,14 @@ nav ul li a:hover {
   font-weight: 500;
   margin-bottom: -2px;
 }
+@media (min-width: 1200px){
+
+  .hero-text h1{
+    max-width: 1920px;
+    font-size: 55px;
+    margin-left: 35px;
+  }
+}
 .hero-text p {
   font-family: sorts-mill-goudy-regular;
   width: 38%;
@@ -58,6 +73,14 @@ nav ul li a:hover {
   line-height: 25px;
   margin-bottom: 30px;
   letter-spacing: 1px;
+}
+
+@media(min-width: 1200px){
+
+  .hero-text p{
+    max-width: 1920px;
+    margin-left: 160px;
+  }
 }
 .button {
   background-color: #ff6600;
@@ -70,6 +93,13 @@ nav ul li a:hover {
   display: inline-block;
   font-weight: lighter;
   margin-left: 25%;
+}
+
+@media(min-width: 1200px){
+  .button{
+    max-width: 1920px;
+    padding: 12px 25px;
+  }
 }
 .button:hover {
   background-color: #e65c00;
@@ -89,12 +119,26 @@ nav ul li a:hover {
     url(images/roman-bozhko-OXXsAafHDeo-unsplash.jpg);
   height: 825px;
 }
+
+@media(min-width: 1200px){
+
+  .part1{
+    max-width: 1920px;
+    height: 674px;
+  }
+}
 .part2 {
   background-image: url("images/Page-2-bgimage.jpg");
   height: 100vh;
   display: flex;
   justify-content: center;
   font-family: sorts-mill-goudy-regular;
+}
+@media(min-width:1200px){
+  .part2{
+    max-width: 1920px;
+    height: 675px;
+  }
 }
 .container {
   margin: 0 auto;
@@ -109,6 +153,13 @@ nav ul li a:hover {
   color: #e0c7a5;
   font-weight: 500;
 }
+@media(min-width:1200px){
+  .header h1{
+    max-width: 1920px;
+    font-size: 50px;
+    margin-right: 50px;
+  }
+}
 .content {
   display: flex;
   justify-content: space-evenly;
@@ -119,6 +170,12 @@ nav ul li a:hover {
 .image-box img {
   width: 100%;
   border-radius: 20px;
+}
+@media(min-width:1200px){
+  .image-box{
+    max-width: 1920px;
+    width:38%;
+  }
 }
 .caption {
   bottom: 0;
@@ -132,11 +189,24 @@ nav ul li a:hover {
   text-align: center;
   font-weight: 500;
 }
+@media(min-width:1200px){
+  .caption h2{
+    max-width: 1920px;
+    font-size: 21px;
+    font-weight: 520;
+  }
+}
 .caption p {
   font-size: 16px;
   text-align: center;
   font-weight: 500;
   letter-spacing: 1px;
+}
+@media(min-width:1200px){
+  .caption p{
+    max-width: 1920px;
+    font-size: 14px;
+  }
 }
 .background-container {
   background-image: url(images/Page-3-bgimg.jpg);
@@ -145,6 +215,12 @@ nav ul li a:hover {
   height: 100vh;
   position: relative;
   font-family: "Arial", sans-serif;
+}
+@media(min-width:1200px){
+  .background-container{
+    max-width: 1920px;
+    height: 675px;
+  }
 }
 .overlay {
   position: absolute;
@@ -167,6 +243,12 @@ nav ul li a:hover {
   font-weight: 500;
   margin-top: -30px;
 }
+@media(min-width:1200px){
+  .title{
+    max-width: 1920px;
+    font-size: 60px;
+  }
+}
 .steps-container {
   display: flex;
   width: 100%;
@@ -181,15 +263,39 @@ nav ul li a:hover {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.step h2 {
+@media(min-width: 1200px){
+  .step{
+    max-width: 1920px;
+    border-radius: 80px;
+    width: 300px;
+    height: 63%;
+    padding-top: 10px;
+    margin: 25px;
+  }
+}
+.step h4 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 50;
   margin-bottom: 15px;
+}
+@media(min-width: 1200px){
+  .step h4{
+    max-width: 1920px;
+    font-size: 1.2rem;
+  }
 }
 .step p {
   font-size: 1rem;
   line-height: 1.5;
 }
+@media(min-width:1200px){
+  .step p{
+    max-width: 1920px;
+    font-size: 0.9rem;
+    font-weight: 50;
+  }
+}
+
 .about-container {
   background-position: center;
   height: 88vh;
@@ -202,6 +308,12 @@ nav ul li a:hover {
   margin: 0 auto;
   padding: 50px 20px;
 }
+@media(min-width:1200px){
+  .about-container{
+    max-width: 1920px;
+    height:580px;
+  }
+}
 .about-text {
   font-size: 18px;
   margin-left: 5%;
@@ -209,6 +321,12 @@ nav ul li a:hover {
   width: 35%;
   font-weight: 500;
   letter-spacing: 1px;
+}
+@media(min-width:1200px){
+  .about-text{
+    max-width: 1920px;
+    font-size: 16px;
+  }
 }
 .about-text h1 {
   text-align: center;
@@ -239,6 +357,12 @@ header {
 .cafe img {
   height: 350px;
   width: 100%;
+}
+@media(min-width:1200px){
+  .cafe img{
+    max-width: 1920px;
+    height:230px;
+  }
 }
 .image-section {
   display: flex;
