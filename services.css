@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.services h2 {
+    font-family: Roxborough CF Regular;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 550 bold;
+}
+
+.service-cards {
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #f8f8ee;
+    height: 30vh;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+.card h3 {
+    font-family: Roxborough CF Regular;
+    margin-top: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    font-family: Roxborough CF Regular;
+    font-size: 13px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+}
+
+.why-us {
+    padding: 25px;
+    background-color: #efe7dd;
+    margin-top: 100px;
+    height: 50%;
+    width: 100vw;
+    text-align: center;
+    font-family: Roxborough CF Regular;
+}
+
+.why-us h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.benefits {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.benefit h3 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.benefit p {
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #1a1a1a;
+    height: 50%;
+    width: 100vw;
+}
+
+.container h3 {
+    font-family: Roxborough CF Regular;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+    background-color: #ffd700;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #f0e68c;
+}
+
+.container h6 {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1rem;
+    font-weight: 200;
+}
