@@ -22,3 +22,8 @@ gsap.from(".container .hero-text h1" , {
     // rotate : 360,
     scale : 0,
 })
+
+var scroll = new LocomotiveScroll({
+    el: document.querySelector('.landing-page'),
+    smooth: true
+});
