@@ -35,8 +35,7 @@ nav ul li a {
 
 
 @media(min-width: 1200px){
-  nav ul li a{
-    max-width: 1920px;
+  nav ul li a{ 
     font-size: 18px;
   }
 }
@@ -65,9 +64,7 @@ nav ul li a:hover {
 }
 
 @media (min-width: 1200px){
-
   .hero-text h1{
-    max-width: 1920px;
     font-size: 55px;
     margin-left: 35px;
   }
@@ -85,9 +82,7 @@ nav ul li a:hover {
 }
 
 @media(min-width: 1200px){
-
   .hero-text p{
-    max-width: 1920px;
     margin-left: 160px;
   }
 }
@@ -106,7 +101,6 @@ nav ul li a:hover {
 
 @media(min-width: 1200px){
   .button{
-    max-width: 1920px;
     padding: 12px 25px;
   }
 }
@@ -129,11 +123,10 @@ nav ul li a:hover {
   height: 825px;
 }
 
-@media(min-width: 1200px){
+@media(min-width: 768px){
 
   .part1{
-    max-width: 1920px;
-    height: 674px;
+    height: 100vh;
   }
 }
 .part2 {
@@ -144,10 +137,9 @@ nav ul li a:hover {
   font-family: sorts-mill-goudy-regular;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .part2{
-    max-width: 1920px;
-    height: 675px;
+    height: 100vh;
   }
 }
 .container {
@@ -166,9 +158,8 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .header h1{
-    max-width: 1920px;
     font-size: 50px;
     margin-right: 50px;
   }
@@ -187,9 +178,8 @@ nav ul li a:hover {
   border-radius: 20px;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .image-box{
-    max-width: 1920px;
     width:38%;
   }
 }
@@ -207,9 +197,8 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .caption h2{
-    max-width: 1920px;
     font-size: 21px;
     font-weight: 520;
   }
@@ -221,9 +210,8 @@ nav ul li a:hover {
   letter-spacing: 1px;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .caption p{
-    max-width: 1920px;
     font-size: 14px;
   }
 }
@@ -236,10 +224,9 @@ nav ul li a:hover {
   font-family: "Arial", sans-serif;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .background-container{
-    max-width: 1920px;
-    height: 675px;
+    height: 100vh;
   }
 }
 .overlay {
@@ -265,9 +252,8 @@ nav ul li a:hover {
   margin-top: -30px;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .title{
-    max-width: 1920px;
     font-size: 60px;
   }
 }
@@ -287,9 +273,8 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media(min-width: 1200px){
+@media(min-width: 768px){
   .step{
-    max-width: 1920px;
     border-radius: 80px;
     width: 300px;
     height: 63%;
@@ -303,9 +288,9 @@ nav ul li a:hover {
   margin-bottom: 15px;
 }
 
-@media(min-width: 1200px){
+@media(min-width: 768px){
   .step h4{
-    max-width: 1920px;
+    /* max-width: 1920px; */
     font-size: 1.2rem;
   }
 }
@@ -313,9 +298,8 @@ nav ul li a:hover {
   font-size: 1rem;
   line-height: 1.5;
 }
-@media(min-width:1200px){
+@media(min-width:768px){
   .step p{
-    max-width: 1920px;
     font-size: 0.9rem;
     font-weight: 50;
   }
@@ -334,11 +318,11 @@ nav ul li a:hover {
   padding: 50px 20px;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .about-container{
-    max-width: 1920px;
-    height:580px;
+    height: 85vh;
   }
+  
 }
 .about-text {
   font-size: 18px;
@@ -349,10 +333,9 @@ nav ul li a:hover {
   letter-spacing: 1px;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .about-text{
-    max-width: 1920px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .about-text h1 {
@@ -392,10 +375,9 @@ header {
   width: 100%;
 }
 
-@media(min-width:1200px){
+@media(min-width:768px){
   .cafe img{
-    max-width: 1920px;
-    height:230px;
+    height:37vh;
   }
 }
 .image-section {
@@ -408,6 +390,12 @@ header {
   height: 220px;
 }
 
+@media(min-width: 768px){
+  .image-section img{
+    height: 28vh;
+  }
+}
+
 footer {
   background-color: #764b36;
   padding: 40px;
@@ -415,7 +403,11 @@ footer {
   text-align: center;
   color: #ffd5ad;
 }
-
+@media(min-width: 1200px){
+  footer{
+    height: 12.5vw;
+  }
+}
 footer h2 {
   font-weight: 400;
   letter-spacing: 4px;
