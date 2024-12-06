@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CafeSphere Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #2d1e19;
+      /* Dark brown background */
+      color: #fff;
+      /* White text */
+      font-family: "Arial", sans-serif;
+    }
+
+    .sidebar {
+      background-color: #3a2318;
+      /* Sidebar dark shade */
+      height: 100vh;
+    }
+
+    .sidebar a {
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 15px;
+      display: block;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      height: 60px;
+      width: 80px;
+      background-color: #fff;
+      border-radius: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      color: #693f25;
+      /* Bottom shadow only */
+    }
+
+    .sidebar a:hover {
+      background-color: #5c3b2d;
+      border-radius: 5px;
+    }
+
+    .main-header {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(216, 208, 208, 0.2);
+      /* Shadow for h2 */
+    }
+
+    .dashboard-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #5c3b2d;
+      border: none;
+      padding: 20px;
+      border-radius: 10px;
+      height: 160px;
+      color: white;
+    }
+
+    .pie-chart-container,
+    .line-chart-container {
+      background-color: #5c3b2d;
+      border-radius: 10px;
+      color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .chart-container {
+      display: grid;
+      
+      gap: 20px;
+    }
+
+    .chart-container {
+
+      color: white;
+      font-family: Arial, sans-serif;
+
+
+
+      
+      
+      
+    }
+
+    
+    
+
+    
+    
+
+    .chart {
+      background-color: #5c3b2d;
+      border: none;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-2 sidebar">
+        <!-- Logo -->
+        <div class="logo">Logo</div>
+        <p style="
+              box-shadow: 0 4px 6px rgba(196, 182, 182, 0.2);
+              margin-left: -20px;
+              margin-top: -12px;
+              width: 273px;
+            ">
+          .
+        </p>
+        <h2 class="text-center mt-4 mb-4">CafeSphere</h2>
+        <a href="#" style="
+              color: white;
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+            ">
+          <img src="https://img.icons8.com/ios-glyphs/30/000000/laptop.png"
+            style="filter: brightness(0) invert(1); margin-right: 10px" />
+          Dashboard
+        </a>
+        <hr />
+        <a href="#" style="
+              color: white;
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+            "><img src="https://img.icons8.com/ios-glyphs/30/000000/home.png"
+            style="filter: brightness(0) invert(1); margin-right: 10px" />
+          Bookings</a>
+        <hr />
+        <a href="#" style="
+              color: white;
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+            "><img src="https://img.icons8.com/ios-glyphs/30/000000/restaurant.png"
+            style="filter: brightness(0) invert(1); margin-right: 10px" />
+          Menu Items</a>
+        <hr />
+        <a href="#" style="
+              color: white;
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+            "><img src="https://img.icons8.com/ios-glyphs/30/000000/user.png"
+            style="filter: brightness(0) invert(1); margin-right: 10px" />
+          Customer Details</a>
+        <hr />
+        <a href="#" style="filter: brightness(0) invert(1); margin-right: 10px"><img
+            src="https://img.icons8.com/ios-glyphs/30/000000/settings.png"
+            style="filter: brightness(0) invert(1); margin-right: 10px" />
+          Settings</a>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-10">
+        <div class="main-header">
+          <h2>Welcome, <span style="color: orange">Alexa</span></h2>
+          <div class="d-flex align-items-center">
+            <i class="bi bi-bell me-3"></i>
+            <img src=" https://img.freepik.com/free-vector/portrait-boy-with-blonde-hair-blue-eyes_1308-157023.jpg"
+              alt="Profile" class="rounded-circle" width="35" />
+            <span class="ms-2">Alexa Bliss</span>
+          </div>
+        </div>
+
+        <div class="mt-4 mb-4 px-3">
+          <h2>Dashboard</h2>
+          <p>3 December, 2024 | 2:55:33</p>
+        </div>
+
+        <!-- Dashboard Cards -->
+        <div class="dashboard-cards px-3 mt-5">
+          <div class="card">
+            <h5>Total Bookings</h5>
+            <div class="icon">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/030/652/985/small/fastcasual-restaurant-with-diverse-menu-of-vegan-free-photo.jpg"
+                class="rounded-circle" style="margin-bottom: 20px;" width="50" height="70" alt=""> <Span
+                style="font-size: 66px;"> 6 </Span>bookings
+            </div>
+
+          </div>
+          <div class="card">
+            <h5>Menu</h5>
+            <div class="icon">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17x3qNbMasuFYNCp2QfMhQHlU637fkrop-Q&s"
+                class="rounded-circle" style="margin-bottom: 20px;" width="50" height="70" alt=""> <Span
+                style="font-size: 66px;"> 43 </Span>Items
+            </div>
+          </div>
+          <div class="card">
+            <h5>Total Revenue (In Rs.)</h5>
+            <h3 style="font-size: 80px;">6,258</h3>
+          </div>
+          <div class="card">
+            <h5>Total Customers</h5>
+            <h3><span style="font-size: 80px;">89</span> customers</h3>
+
+          </div>
+        </div>
+        <hr style="color: white; border: 1px solid; margin-top: 30px ;margin-bottom: 30px">
+
+
+        <div class="container py-5" style="margin-top: -60px;">
+          <div class="row">
+            <!-- Pie Chart Container -->
+            <div class="col-md-6">
+              <div class="pie-chart-container   p-3">
+                <h4>Bookings Summary</h4>
+                <p>Summary of total bookings in your cafe</p>
+                <div style="text-align: right;  ">
+                  <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" 
+                    style="background-color: rgba(57, 55, 55, 0.644); color:white;">
+                    Monthly
+                  </button>
+                 
+                 
+                
+                
+                
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Daily</a></li>
+                    <li><a class="dropdown-item" href="#">Weekly</a></li>
+                    <li><a class="dropdown-item" href="#">Yearly</a></li>
+                  </ul>
+                </div>
+                <div class="chart-container "  style="height: 200px; width: 200px; margin-left: 50px;">
+                  <canvas id="bookingChart"></canvas>
+                </div>
+                <ul class="list-unstyled  " style="text-align:right;margin-top: -110px;">
+                  <li><span style="color: orange;">●</span> Birthday Party</li>
+                  <li><span style="color: magenta;">●</span> Anniversary Party</li>
+                  <li><span style="color: green;">●</span> Casual Meetups</li>
+                  <li><span style="color: blue;">●</span> Office Party</li>
+                  <li><span style="color: red;">●</span> Engagement Ceremony</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Line Chart Container -->
+            <div class="col-md-6">
+              <div class="line-chart-container text-center p-3">
+                <h4>Sales Figure</h4>
+                <p>Track your sales performance over time</p>
+                <div class="chart-container  " style="  width: 350px; margin-top: -20px;"></div>
+                <canvas id="lineChart"></canvas>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Chart.js for Graphs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    // Bookings Summary Pie Chart
+    const ctx = document.getElementById('bookingChart').getContext('2d');
+    const bookingChart = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: [
+          'Birthday Party',
+          'Anniversary Party',
+          'Casual Meetups',
+          'Office Party',
+          'Engagement Ceremony'
+        ],
+        datasets: [{
+          data: [25, 20, 15, 25, 15],
+          backgroundColor: [
+            'orange',
+            'magenta',
+            'green',
+            'blue',
+            'red'
+          ],
+          borderColor: '#4c3f37', // Match the background color for seamless design
+          borderWidth: 2
+        }]
+      },
+      options: {
+        plugins: {
+          legend: {
+            display: false // Hide legend; using custom labels
+          }
+        },
+        cutout: '70%', // Create the donut hole
+      }
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Line Chart
+    const lineCtx = document.getElementById('lineChart').getContext('2d');
+    new Chart(lineCtx, {
+      type: 'line',
+      data: {
+        labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+        datasets: [{
+          label: 'Sales',
+          data: [5, 3, 6, 8, 4, 9, 10],
+          borderColor: '#ff5722',
+          fill: false,
+          tension: 0.4
+        }]
+      }
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
