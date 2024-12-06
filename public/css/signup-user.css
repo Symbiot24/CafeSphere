@@ -1,0 +1,156 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    width: 100%;
+    background-color: #E3CAAB;
+    display: flex;
+} */
+
+body{
+    background-color: #E3CAAB;
+}
+
+.container{
+    flex: 1;
+    margin:0;
+    padding: 300px;
+    height: 70% !important;
+  }
+
+.selecte{
+    height: 35px;
+    width: 90%;
+    margin: 0 20px;
+    background-color: transparent;
+    border: 2px solid #764B36;
+    border-radius: 3px;
+}
+
+.img-1, .img-4{
+    height: 170px;
+    width: 160px;
+    background-color: red;
+}
+.img-2, .img-3{
+    height: 220px;
+    width: 180px;
+    background-color: pink;
+}
+
+.img-1{
+    background: url( https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?t=st=1730047724~exp=1730051324~hmac=25db1dd5a8d8eac47ae30483dac78e5bdb58081af9dc60d9129fd0aa5bb4caa8&w=1060);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    top: 190px;
+    left: 0;
+}
+.img-2{
+    background: url( https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?ga=GA1.1.1351037294.1729501139);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    right: 100px;
+    top: 65px;
+}
+.img-3{
+    background: url(https://img.freepik.com/free-photo/cup-tea-with-cookies-lemon-slices-dark_140725-44454.jpg?ga=GA1.1.1351037294.1729501139);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+.img-4{
+    background: url(https://img.freepik.com/free-photo/side-view-thai-ice-cream-roll-whipped-cream-decorated-with-colorful-sprinkles-cardboard-bowl-black-wall_140725-12926.jpg?ga=GA1.1.1351037294.1729501139);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 140px;
+}
+
+.box{
+    height: 450px !important;
+    width: 540px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 20px 20px 15px rgba(118, 75, 54, 0.4);
+}
+
+@media(min-width:768px){
+    .box{
+        height: 60vh;
+        width: 40vw;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+.box h1{
+    font-size: 2rem;
+    font-weight: 400;
+    /* margin: 0 100px; */
+    color: rgb(2, 51, 2);
+}
+.upper{
+    /* margin-top: 20px; */
+}
+.box input{
+    height: 35px;
+    width: 90%;
+    border: none;
+    margin: 0 20px;
+    margin-top:15px;
+    background-color: transparent;
+    border: 2px solid #764B36;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+@media(min-width:768px){
+    .box input{
+        height: 10%;
+    }
+}
+
+.box button {
+    height: 30px;
+    width: 70%;
+    background-color: #764B36;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 30px 80px;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+.box a{
+    text-decoration: none;
+    color: #764B36;
+    font-weight: 550;
+    font-size: 11px !important;
+    margin: 0 180px;
+}
+

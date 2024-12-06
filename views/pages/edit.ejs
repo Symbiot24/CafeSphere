@@ -1,0 +1,35 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<div class="row">
+    <h1 class="col-8 offset-3">Edit your Cafe...</h1>
+    <div class="col-8 offset-3">
+        <form method="POST" action="/cafe/<%=cafe._id%>?_method=PUT" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="cafeName" class="form-label">Cafe Name</label>
+                <input type="text" name="cafeName" class="form-control" value="<%= cafe.cafeName %>" required>
+            </div>
+            <div class="mb-3">
+                <label for="ownerName" class="form-label">Owner Name</label>
+                <input type="text" name="ownerName" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="image" class="form-label">Image Link/URL</label>
+                <input type="text" name="image" class="form-control" value="<%= cafe.image %>">
+            </div>
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" name="location" class="form-control" value="<%= cafe.location %>" required>
+            </div>
+            <div class="mb-3">
+                <label for="city" class="form-label">City</label>
+                <input type="text" name="city" class="form-control" value="<%= cafe.city %>" required>
+            </div>
+            <div class="mb-3">
+                <label for="contactNo" class="form-label">ContactNo</label>
+                <input type="text" name="contactNo" class="form-control" value="<%= cafe.contactNo %>" required>
+            </div>
+            <button class="btn btn-outline-dark">Edit</button>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,12 @@
+npm init -y
+npm i express
+npm i mongoose
+npm i ejs
+
+about-us wala page sudharna hhhh ---- 23-11-24
+
+cafe-name, owner name , address, contact no, type, 
+
+date-> 3/12/24
+edit page pe PUT request handle kr raha tha
+router.put("/cafe/:id");

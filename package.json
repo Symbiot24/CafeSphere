@@ -1,0 +1,25 @@
+{
+  "name": "cafesphere",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r A full stack project on a cafe booking app in which user can find out the cafes where they want to celebrate their birthdays , anniversary , office party etc . So that they will consume there time and online book the cafe near them . In this app there are two users to be login or register , One is cafe owner in which they will register there details along with there price , photos , and many more and another one is user who want to book cafe for their functions .\r =======\r A full stack project on a cafe booking app in which user can find out the cafes where they want to celebrate their birthdays , anniversary , office party etc . So that they will consume there time and online book the cafe near them . In this app there are two users to be login or register , One is cafe owner in which they will register there details along with there price , photos , and many more and another one is user who want to book cafe for their functions .lorem5 . lorem55555.\r >>>>>>> vedansh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "joi": "^17.13.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.8.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0"
+  }
+}

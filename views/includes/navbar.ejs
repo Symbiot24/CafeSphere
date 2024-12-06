@@ -1,0 +1,18 @@
+<header class="navbar navi sticky-top">
+  <div class="logo"><a href="/"><i> CafeSphere</i></a></div>
+  <nav>
+    <ul>
+      <li><a href="/cafe/new"><i> Add Cafe </i></a></li>
+      <li><a href="/about"> <i> About Us </i></a></li>
+      <li><a href="/contact"> <i> Contact </i></a></li>
+      <% if(!currUser) { %>
+      <li><a href="/signup"> <i> Register</i></a></li>
+      <li><a href="/login"> <i> Sign In </i></a></li>
+      <% } %>
+      <% if(currUser) {%>
+      <li><a href="/logout"> <i> Logout</i></a></li>
+      <% } %>  
+
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,26 @@
+<% layout("/layouts/boilerplate.ejs") %>
+<link rel="stylesheet" href="css/show.css">
+
+<div class="row mt-3">
+    <div class="col-8 offset-3">
+        <h3><b> <%= cafe.cafeName %> </b> </h3>
+    </div>
+
+    <div class="card col-6 offset-3 show-card listing-card">
+        <img src="<%= cafe.image%>" class="card-img-top show-img" alt="individualData_image">
+        <div class="card-body">
+        <p class="card-text">
+            Location: <%= cafe.location %>,
+            <%= cafe.city %>
+        </p>
+         </div>
+    </div>
+    <div class="btns mb-3">
+        <a href="/cafe/<%=cafe._id%>/edit" class="btn btn-outline-dark col-1 offset-3 edit-btn">Edit</a>
+        
+        <form method="POST" action="">
+            <button class="btn btn-dark offset-5">Delete</button>
+        </form>
+    </div>
+</div>
+<hr>
